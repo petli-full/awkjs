@@ -28,7 +28,7 @@ describe('test awkjs', function () {
     });
 
     it('input is invalid"', async () => {
-        const { awk } = await awkjs()
+        const { awk } = await awkjs();
         const p = awk('":', '!#@@$%', []).stderr;
         expect(p).to.contains('syntax error');
     });
