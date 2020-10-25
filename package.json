@@ -1,0 +1,46 @@
+{
+  "name": "awkjs",
+  "version": "0.0.2",
+  "description": "The JavaScript compilation of GNU awk that runs in browser and NodeJS",
+  "main": "dist/index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter list --require @babel/register --require babel-polyfill",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petli-full/awkjs.git"
+  },
+  "keywords": [
+    "awk",
+    "gawk",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "petli-full",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petli-full/awkjs/issues"
+  },
+  "homepage": "https://github.com/petli-full/awkjs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
