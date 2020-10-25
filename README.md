@@ -1,7 +1,7 @@
 # awkjs
 The JavaScript compilation of GNU awk that can be run in browser and NodeJS.
 
-This JavaScript library is a result of compiling [GUN awk](https://www.gnu.org/software/gawk/) using [emscripten](https://emscripten.org/). [Here](https://opensource.com/article/19/4/command-line-playgrounds-webassembly) is a step-by-step guide on how to do it. Though the guide uses jq for the example, but the process is the same. 
+This JavaScript library is a result of compiling [GNU awk](https://www.gnu.org/software/gawk/) using [emscripten](https://emscripten.org/). [Here](https://opensource.com/article/19/4/command-line-playgrounds-webassembly) is a step-by-step guide on how to do it. Though the guide uses jq for the example, but the process is the same. 
 
 ### install it
 ```
