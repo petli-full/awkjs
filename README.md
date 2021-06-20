@@ -21,6 +21,16 @@ awkjs().then(({ awk }) => {
     const error = output.stderr;
 });
 ```
+or
+```
+var awkjs = require("awkjs").awkjs
+
+awkjs().then(({ awk }) => {
+    // echo 'Hello World' | awk '{$2="AWK"; print $0}'
+    const output = awk('Hello World', '{$2="AWK"; print $0}', []);
+    console.log(output);
+});
+```
 
 ### just a note 
 The above `awkjs()` promise resolves to the [Module](https://emscripten.org/docs/api_reference/module.html) object of emscripten API. However, for this library, the user should only cares and uses the `awk` method. Other members in the `Module` object should never be used.

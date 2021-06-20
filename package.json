@@ -1,6 +1,6 @@
 {
   "name": "awkjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The JavaScript compilation of GNU awk that runs in browser and NodeJS",
   "main": "dist/index.js",
   "directories": {
